@@ -30,5 +30,13 @@ AWS Lambda Test Event ──> Lambda function ──> Student JSON
                                   │
                                   └──> CloudWatch Logs
 
-
+el6-deployment-model-comparison/
+├── README.md
+├── traditional_app/
+│   └── app.py
+├── microservices/
+│   ├── student_service.py
+│   └── gateway.py
+└── serverless/
+    └── lambda_function.py
                                   
